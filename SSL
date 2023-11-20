@@ -1,0 +1,17 @@
+Description
+
+the Secure Sockets Layer (SSL) and Transport Layer Security (TLS) network protocols and related cryptography standards required by them.
+The OpenSSL program is a command line program for using the various cryptography functions of OpenSSL's crypto library from the shell.
+It can be used for
+-Creation and management of private keys, public keys and parameters
+-Public key cryptographic operations
+-Creation of X.509 certificates, CSRs and CRLs
+-Calculation of Message Digests and Message Authentication Codes
+-Encryption and Decryption with Ciphers
+-SSL/TLS Client and Server Tests
+-Handling of S/MIME signed or encrypted mail
+-Timestamp requests, generation and verification
+
+Code
+
+openssl req -nodes -newkey rsa:2048 -keyout example.key -out example.crt -x509 -days 365
